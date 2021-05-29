@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]> <html class="no-js"> <![endif]-->
+<html lang="en">
+	
+<!-- Mirrored from demos.hogash.com/greek-html/room_sample.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 03:16:51 GMT -->
+<head>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content=" width=device-width, initial-scale=1">
+		<title>Greek Hotel - Default styles</title>
+
+		<!-- Fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Poppins:400%2C500%2C700%7COpen+Sans%7CMontserrat:500%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+
+		<!-- Icons -->
+		<link href="style/icomoon.css" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="fonts/fontello/style.css">
+
+		<!-- CSS assets -->
+		<link href="style/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="modules/jquery-datepicker/jquery-ui.min.css">
+		<link href="modules/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+
+		<!-- LOAD slick slider assets -->
+		<link rel="stylesheet" type="text/css" href="modules/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="modules/slick/slick-theme.css"/>
+
+		<!-- Main theme stylesheet -->
+		<link href="style/css/template.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+	<body>
+	<!-- Navigation Overlay menu start -->
+	<div class="sh__navOverlay sh__navOverlay--closed">
+			<div class="sh__navOverlay-inner">
+				<div class="sh__navOverlay--menuWrapper">
+					<div class="sh__navOverlay--menuWrapper-inner">
+						<!--copyright text -->
+						<ul class="sh__navOverlay--mainNav ovr-menu">
+							<li class="ovr-menu__item"><a href="index-2.html">Home</a></li>
+							<li class="ovr-menu__item"><a href="rooms.html">Rooms</a></li>
+							<li class="ovr-menu__item"><a href="searchrooms.html">Searchrooms</a></li>
+							<li class="ovr-menu__item"><a href="room_sample.html">Room Sample</a></li>
+							<li class="ovr-menu__item"><a href="cart.html">Cart</a></li>
+							<li class="ovr-menu__item"><a href="checkout.html">Checkout</a></li>
+						</ul>
+
+						<!--start close buttom -->
+						<a href="#" class="button-navOverlay-close">
+							<span></span>
+							<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+								<circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+							</svg>
+						</a><!--end-close button -->
+
+					</div><!--/.sh__navOverlay-menuWrapper-inner -->
+				</div><!--/.sh__navOverlay-menuWrapper -->
+				<!--copyright text -->
+				<div class="copyText-wrapper">
+					<div class="copyText">© 2017 Hogash.com
+					</div>
+				</div><!--end copyright text -->
+			</div><!--/.sh__navOverlay-inner -->
+		</div> <!--/.sh__navOverlay -->
+	<!-- Navigation Overlay end -->
+
+	<div id="page_wrapper">
+		<header id="header" class="site-header header--sticky header--not-sticked site-header--absolute">
+				<div class="site-header-main-wrapper clearfix">
+					<div class="container siteheader-container">
+							<div class="flex-col flex-basis-auto">
+								<div class="flex-row site-header-row site-header-main">
+									<!-- left column - logo -->
+									<div class="flex-col flex flex-start-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-left">
+										<div id="logo-container">
+												<div class="site-logo">
+														<a href="index-2.html" class="site-logo-anch">
+																<img class="logo-img-sticky site-logo-img-sticky" src="img-assets/greekhotel-logo-white.png" alt="greekhotel" title="Greek Hotel">
+																<img class="logo-img site-logo-img" src="img-assets/greekhotel-logo.png" alt="greekhotel" title="Greek Hotel" width="196" height="36">
+														</a>
+												</div>
+										</div>
+									</div>
+									<!-- center column -->
+									<div class="flex-col flex flex-center-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-center site-header-main-center">
+									</div>
+									<!-- right column - navigation menu -->
+									<div class="flex-col flex flex-end-x flex-center-y flex-basis-auto site-header-col-right site-header-main-right">
+											<div class="main-menu-wrapper">
+													<a href="tel:+9714-421-4988" class="sh-component btn-fullwhite ">
+															<i class="fa fa-phone" aria-hidden="true"></i>
+															<span>+9714-421-4988</span>
+													</a>
+													<div class="sh-component menu-wrapper">
+														<a href="#" class="sh__hamburger-trigger">
+															<span></span>
+															<span></span>
+															<span></span>
+														</a>
+													</div>
+											</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+		</header>
+			<!--breadcrumb section  -->
+			<div class="page-subheader psub--light">
+				<div class="page-subheader-container">
+					<div class="title">
+						<h4>Single Room with Sea View</h4>
+					</div>
+					<div class="price">
+
+						<span class="price-value">$0.0</span>
+						<span class="price-unit">/ Night</span>
+					</div>
+				</div>
+			</div>
+			<section class="bg-color--grey">
+			<!--slider section  -->
+			<div class="hg-room-container">
+				<div class="room-containter-image">
+					<div class="hg-room-gallery">
+						<div class="cont-img"><img src="images/room_12.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_13.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_14.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_15.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_16.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_17.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_18.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_15.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_16.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_17.jpg" alt="room-image"></div>
+						<div class="cont-img"><img src="images/room_18.jpg" alt="room-image"></div>
+					</div>
+				</div>
+				<ul class="slider-nav container">
+					<li><img src="images/room_12.jpg" alt="room-image"></li>
+					<li><img src="images/room_13.jpg" alt="room-image"></li>
+					<li><img src="images/room_14.jpg" alt="room-image"></li>
+					<li><img src="images/room_15.jpg" alt="room-image"></li>
+					<li><img src="images/room_16.jpg" alt="room-image"></li>
+					<li><img src="images/room_17.jpg" alt="room-image"></li>
+					<li><img src="images/room_18.jpg" alt="room-image"></li>
+					<li><img src="images/room_15.jpg" alt="room-image"></li>
+					<li><img src="images/room_16.jpg" alt="room-image"></li>
+					<li><img src="images/room_17.jpg" alt="room-image"></li>
+					<li><img src="images/room_18.jpg" alt="room-image"></li>
+
+
+			</ul>
+		</div>
+
+			<!--content  -->
+			<div class="container mgt-60">
+				<div class="row">
+					<!--left side-->
+					<div class="col-sm-8 col-md-9">
+						<div class="hg-room-details">
+							<ul class="hg-tabs hg-tabs--room">
+								<li>
+									<a class="tablinks active" href="#room-description">Description</a>
+								</li>
+								<li>
+									<a class="tablinks" href="#room-additional">ADDITIONAL INFORMATION</a>
+								</li>
+								<li>
+									<a class="tablinks" href="#room-pricing">PRICING PLANS</a>
+								</li>
+							</ul>
+							<div class="hg-tabs-content">
+								<div id="room-description" class="tabcontent">
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="row">
+												<div class="col-sm-12">
+												<strong>About This Listing</strong>
+												<br>
+												<p>A combination between comfort and simple elegance, the Standard Room is the perfect choice especially for couples. The interior decor adds to the specific modern style all the with commodoties that will make your stay ,more pleasant. The room is a great place to simply relax, hide from the sun and enjoy the pleasures of living in Greece, while having a beautiful view, right outside your window.</p>
+												<hr>
+												</div>
+											</div>
+											<!--second row-->
+											<div class="row">
+											<div class="col-sm-3">
+												<strong>The Space</strong>
+											</div>
+											<div class="col-sm-9">
+												<div class="row">
+													<div class="col-sm-6">
+														Bed type: <Span><strong>Real bed</strong></span>
+															<br>
+														Property type: <Span><strong>Apartment</strong></span>
+															<br>
+														Room size: <Span><strong>45m<sup>2</sup></strong></span>
+																<br>
+
+													</div>
+													<div class="col-sm-6">
+														Bedrooms: <Span><strong>1</strong></span>
+															<br>
+														Beds: <Span><strong>1</strong></span>
+															<br>
+														Accommodates: <Span><strong>2</strong></span>
+																<br>
+													</div>
+												</div>
+
+												<hr>
+											</div>
+											</div>
+											<!--third row-->
+											<div class="row">
+												<div class="col-sm-3">
+													<strong>Complimentary Services</strong>
+												</div>
+												<div class="col-sm-9">
+													Housekeeping: Once a day complimentary includes change of towels.<br>
+													Arrival Pack: Juice++<br>
+													<span style="color:#43CCD5"><strong>Baby and infant stay free</strong></span><br>
+													Concierge services: include excursion and restaurant booking.<br>
+													Rent a car: let us know your requirement as we have secured significant discount for you.<br>
+													Neighborhood guide: includes orientation at the unit and special offers by neighbors.<br>
+													<span style="color:#43CCD5"><strong>Visa Asistance</strong></span>
+
+
+													<hr>
+												</div>
+
+											<!--4th row-->
+											</div>
+											<div class="row">
+												<div class="col-sm-3">
+													<strong>AMENITIES</strong>
+												</div>
+												<div class="col-sm-9">
+													<div class="row">
+														<div class="col-sm-6">
+															<span class="hg-tabs-content--icon icon-travel-64"></span>TV
+																<br>
+															<span class="hg-tabs-content--icon icon-travel-59"></span>Wireless Internet
+																<br>
+															<span class="hg-tabs-content--icon icon-travel-24"></span>Free parking
+																<br>
+															<span class="hg-tabs-content--icon icon-travel-54"></span>Bathroom
+																<br>
+															<span class="hg-tabs-content--icon icon-travel-57"></span>Kitchen
+																	<br>
+
+														</div>
+														<div class="col-sm-6">
+															<span class="hg-tabs-content--icon icon-travel-62"></span>Air conditioning
+																<br>
+															<span class="hg-tabs-content--icon icon-travel-69"></span>Essentials
+																<br>
+															<span class="hg-tabs-content--icon icon-sailboat"></span>Sea view
+																<br>
+															<span class="hg-tabs-content--icon icon-lounge" style="margin-right: 35px;margin-left: 23px;"></span>Pool
+																<br>
+															<span class="hg-tabs-content--icon icon-travel-65"></span>Room service
+																	<br>
+														</div>
+													</div>
+													<hr>
+												</div>
+											</div>
+
+											<!--Cancellation row-->
+											<div class="row">
+												<div class="col-sm-3">
+													<strong>Cancellations</strong>
+												</div>
+												<div class="col-sm-9">
+
+													Cancel up to 5 days before your trip and get a full refund, including service fees.
+													<hr>
+												</div>
+											</div>
+
+											<!--Arrival row-->
+											<div class="row">
+												<div class="col-sm-3">
+													<strong>Arrival</strong>
+												</div>
+												<div class="col-sm-9">
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec velit sagittis justo commodo molestie sit amet mollis ante. Curabitur auctor neque enim, nec volutpat purus accumsan eu. In et arcu sollicitudin, blandit ligula ac, efficitur massa. Nam efficitur blandit ligula, sit amet aliquam dolor egestas vitae. Nam iaculis, erat gravida dictum molestie, urna sapien convallis tortor, ac pulvinar metus odio sit amet neque. Cras vitae consequat nibh, vel egestas tellus. Suspendisse volutpat dui tempus, lacinia nulla sed, fringilla mi. Suspendisse molestie interdum pulvinar. Aliquam erat volutpat. Donec et suscipit quam, eget vulputate urna. Suspendisse euismod felis nec eleifend dapibus. Donec facilisis magna mi, non porta nibh sagittis eget. Vivamus et efficitur ipsum. Cras volutpat malesuada massa, vitae convallis odio condimentum et. Pellentesque ut diam pretium, lobortis tellus et, fermentum libero.
+													</p>
+												</div>
+											</div>
+
+											<hr>
+										</div>
+									</div>
+								</div>
+
+								<div id="room-additional" class="tabcontent">
+									<div class="row">
+										<div class="col-sm-12">
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+										</div>
+									</div>
+								</div>
+
+								<div id="room-pricing" class="tabcontent">
+									<div class="row">
+										<div class="col-sm-12">
+											<h4>Regular plan</h4>
+											<table class="table table-hover">
+													<tr>
+															<th>Sun</th>
+															<th>Mon</th>
+															<th>Tue</th>
+															<th>Wed</th>
+															<th>Thu</th>
+															<th>Fri</th>
+															<th>Sat</th>
+													</tr>
+
+													<tr>
+															<td>
+															$20.0 </td>
+															<td>
+															$20.0 </td>
+															<td>
+															$20.0 </td>
+															<td>
+															$20.0 </td>
+															<td>
+															$20.0 </td>
+															<td>
+															$20.0 </td>
+															<td>
+															$20.0 </td>
+													</tr>
+
+											</table>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+						</div>
+					</div>
+					<!--Right side-->
+					<aside class="col-sm-4 col-md-3 ">
+						<div class="sidebar sidebar--room">
+
+							<!--start search form-->
+								<button class="hb_btn btn_add_to_cart box-shadow" type="submit">Book now</button>
+								<h2>SEARCH YOUR ROOM</h2>
+								<form action="https://demos.hogash.com/greek-html/searchresult.html">
+								<div class="flex-column">
+									<!--Column adults  -->
+									<div class="flex-col">
+										<!--date picker arrival-->
+										<div class="hg-form-component-input form-group">
+											<label for="reservation-startdate">Arrival date</label>
+											<div class='input-group date'>
+													<input id="reservation-startdate" type='text' class="form-control js-datepicker" value placeholder="Arrival Date"/>
+
+											</div>
+									</div>
+										</div>
+										<!---date pickerdeparture  -->
+										<div class="flex-col">
+											<div class="hg-form-component-input form-group">
+												<label for="reservation-enddate">Departure date</label>
+												<div class='input-group date'>
+														<input id="reservation-enddate" type='text' class="form-control js-datepicker" value placeholder="Departure Date" />
+
+												</div>
+										</div>
+											</div>
+
+									<!--Column adults  -->
+									<div class="flex-col">
+										<div class="hg-form-component-input">
+											<label for="reservation-people">Adults</label>
+											<select id="reservation-people" name="adults">
+												<optgroup label="Adults">
+													<option value="0">Adults</option>
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+												</optgroup>
+											</select>
+										</div>
+										</div>
+
+									<!--Column children  -->
+									<div class="flex-col">
+										<div class="hg-form-component-input">
+											<label for="reservation-children">Children</label>
+											<select id="reservation-children" name="children">
+												<optgroup label="Children">
+													<option value="0">Children</option>
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+												</optgroup>
+											</select>
+										</div>
+									</div>
+									<!--Column submit -->
+									<div class="flex-col">
+											<div class="hg-form-component">
+												<button class="hb_btn btn-gradient" type="submit"> Check Availability</button>
+											</div>
+										</div>
+								</div>
+							</form>
+							<div class="hg-widget">
+								<h3>Cart</h3>
+								<p class="hg-widget--minicart">Your cart is now empty</p>
+							</div>
+
+
+						</div><!--end sidebar-->
+					</aside>
+
+				</div><!--end row  -->
+			</div><!--end container  -->
+		</section>
+			<section class="bg-color--white">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="other-rooms">
+								<h2 class="other-rooms__title ">Other Rooms</h2>
+								<div class="other-rooms__nav clearfix"></div>
+								<ul class="other-rooms-slider rooms">
+									<li class="rooms__item">
+										<div class="summary">
+											<div class="media">
+												<a href="room_sample.html">
+													<img src="images/room_16.jpg" alt="room16" width="370" height="300"/>
+												</a>
+											</div>
+											<div class="title">
+												<h4>
+													<a href="room_sample.html">Double Room - Sea View</a>
+												</h4>
+											</div>
+											<div class="price">
+												<span class="price-title">Price</span>
+												<span class="price-value">$0.0</span>
+												<span class="price-unit">Night</span>
+											</div>
+										</div>
+									</li>
+									<li class="rooms__item">
+										<div class="summary">
+											<div class="media">
+												<a href="room_sample.html">
+													<img src="images/room_14.jpg" alt="room14" width="370" height="300"/>
+												</a>
+											</div>
+											<div class="title">
+												<h4>
+													<a href="room_sample.html">Family Room 3</a>
+												</h4>
+											</div>
+											<div class="price">
+												<span class="price-title">Price</span>
+												<span class="price-value">$0.0</span>
+												<span class="price-unit">Night</span>
+											</div>
+										</div>
+									</li>
+									<li class="rooms__item">
+										<div class="summary">
+											<div class="media">
+												<a href="room_sample.html">
+													<img src="images/room_02.jpg" alt="room02" width="370" height="300"/>
+												</a>
+											</div>
+											<div class="title">
+												<h4>
+													<a href="room_sample.html">Double Room - Sea View</a>
+												</h4>
+											</div>
+											<div class="price">
+												<span class="price-title">Price</span>
+												<span class="price-value">$0.0</span>
+												<span class="price-unit">Night</span>
+											</div>
+										</div>
+									</li>
+									<li class="rooms__item">
+										<div class="summary">
+											<div class="media">
+												<a href="room_sample.html">
+													<img src="images/room_10.jpg" alt="room10" width="370" height="300"/>
+												</a>
+											</div>
+											<div class="title">
+												<h4>
+													<a href="room_sample.html">Luxury Room 3</a>
+												</h4>
+											</div>
+											<div class="price">
+												<span class="price-title">Price</span>
+												<span class="price-value">$0.0</span>
+												<span class="price-unit">Night</span>
+											</div>
+										</div>
+									</li>
+									<li class="rooms__item">
+										<div class="summary">
+											<div class="media">
+												<a href="room_sample.html">
+													<img src="images/room_21.jpg" alt="room21" width="370" height="300"/>
+												</a>
+											</div>
+											<div class="title">
+												<h4>
+													<a href="room_sample.html">Double room 5</a>
+												</h4>
+											</div>
+											<div class="price">
+												<span class="price-title">Price</span>
+												<span class="price-value">$0.0</span>
+												<span class="price-unit">Night</span>
+											</div>
+										</div>
+									</li>
+									<li class="rooms__item">
+										<div class="summary">
+											<div class="media">
+												<a href="room_sample.html">
+													<img src="images/room_06.jpg" alt="room06" width="370" height="300"/>
+												</a>
+											</div>
+											<div class="title">
+												<h4>
+													<a href="room_sample.html">Single Room with Sea View</a>
+												</h4>
+											</div>
+											<div class="price">
+												<span class="price-title">Price</span>
+												<span class="price-value">$0.0</span>
+												<span class="price-unit">Night</span>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+			<!-- START FOOTER SECTION -->
+
+	  <footer>
+		<div class="hg-footer container">
+		  <div class="hg-footer--row row">
+			<div class=" col-md-12 col-sm-12">
+				<ul class="footer-nav">
+				  <li class="footer-nav__item"><a href="index-2.html">Home</a></li>
+				  <li class="footer-nav__item"><a href="rooms.html">Rooms</a></li>
+				  <li class="footer-nav__item"><a href="searchrooms.html">Searchrooms</a></li>
+				  <li class="footer-nav__item"><a href="room_sample.html">Room Sample</a></li>
+				  <li class="footer-nav__item"><a href="cart.html">cart</a></li>
+				  <li class="footer-nav__item"><a href="checkout.html">checkout</a></li>
+				</ul>
+				<div class="clearfix hg-title-block">
+				  <h3 class="hg-title-block__title">Follow us:</h3>
+				</div>
+				<ul class="footer-social">
+				  <li class="footer-social__item "><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				  <li class="footer-social__item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				  <li class="footer-social__item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				  <li class="footer-social__item"><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i>
+					</a></li>
+				  <li class="footer-social__item"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+
+				</ul>
+				<div class="hg-textbox">
+				  <p class="copyright">
+					Copyright &copy; 2016 Kallyas | Hogash.com
+					<br>
+					This Demo is part of Kallyas Theme. All rights reserved.
+				  </p>
+				</div>
+		  </div>
+		</div>
+	  </div>
+	  </footer>	<!-- end footer section -->
+	</div><!-- end page_wrapper -->
+	<a href="#" class="totop">TOP</a> <!--/.totop -->
+	<script src="js/src/plugins/jquery-3.2.1.min.js"></script>
+	<script src="js/src/plugins/bootstrap.min.js"></script>
+	<script src="modules/slick/slick.min.js"></script>
+	<script src="js/src/plugins/jquery-migrate-1.4.1.min.js"></script>
+	<script src="modules/rellax-master/rellax.min.js"></script>
+	<script src="modules/Magnific-Popup/jquery.magnific-popup.js"></script>
+	<script src="modules/jquery-datepicker/jquery-ui.min.js"></script>
+	<!--Easy paginate script -->
+	<script src="modules/easyPaginate/jquery.easyPaginate.js"></script>
+  <!-- Main template script -->
+  <script src="js/src/script.js"></script>
+  </body>
+  
+<!-- Mirrored from demos.hogash.com/greek-html/room_sample.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 03:16:51 GMT -->
+</html>

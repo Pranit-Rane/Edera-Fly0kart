@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]> <html class="no-js"> <![endif]-->
+<html lang="en">
+	
+<!-- Mirrored from demos.hogash.com/greek-html/rooms.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 03:16:47 GMT -->
+<head>
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content=" width=device-width, initial-scale=1">
+		<title>Greek Hotel</title>
+
+		<!-- Fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Poppins:400%2C500%2C700%7COpen+Sans%7CMontserrat:500%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+
+		<!-- Icons -->
+		<link href="style/icomoon.css" rel="stylesheet">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="fonts/fontello/style.css">
+
+		<!-- CSS assets -->
+		<link href="style/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="modules/jquery-datepicker/jquery-ui.min.css">
+		<link href="modules/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+
+		<!-- LOAD slick slider assets -->
+		<link rel="stylesheet" type="text/css" href="modules/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="modules/slick/slick-theme.css"/>
+
+
+
+			<!-- Main theme stylesheet -->
+			<link href="style/css/template.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+	<body>
+    <!-- Navigation Overlay menu start -->
+  	<div class="sh__navOverlay sh__navOverlay--closed">
+  			<div class="sh__navOverlay-inner">
+  				<div class="sh__navOverlay--menuWrapper">
+  					<div class="sh__navOverlay--menuWrapper-inner">
+  						<!--copyright text -->
+  						<ul class="sh__navOverlay--mainNav ovr-menu">
+  							<li class="ovr-menu__item"><a href="index-2.html">Home</a></li>
+  							<li class="ovr-menu__item"><a href="rooms.html">Rooms</a></li>
+  							<li class="ovr-menu__item"><a href="searchrooms.html">Searchrooms</a></li>
+  							<li class="ovr-menu__item"><a href="room_sample.html">Room Sample</a></li>
+  							<li class="ovr-menu__item"><a href="#">Cart</a></li>
+  							<li class="ovr-menu__item"><a href="checkout.html">Checkout</a></li>
+  						</ul>
+
+  						<!--start close buttom -->
+  						<a href="#" class="button-navOverlay-close">
+  							<span></span>
+  							<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+  								<circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+  							</svg>
+  						</a><!--end-close button -->
+
+  					</div><!--/.sh__navOverlay-menuWrapper-inner -->
+  				</div><!--/.sh__navOverlay-menuWrapper -->
+  				<!--copyright text -->
+  				<div class="copyText-wrapper">
+  					<div class="copyText">© 2017 Hogash.com
+  					</div>
+  				</div><!--end copyright text -->
+  			</div><!--/.sh__navOverlay-inner -->
+  		</div> <!--/.sh__navOverlay -->
+  	<!-- Navigation Overlay end -->
+
+  	<div id="page_wrapper">
+  		<header id="header" class="site-header header--sticky header--not-sticked site-header--absolute">
+  				<div class="site-header-main-wrapper clearfix">
+  					<div class="container siteheader-container">
+  							<div class="flex-col flex-basis-auto">
+  								<div class="flex-row site-header-row site-header-main">
+  									<!-- left column - logo -->
+  									<div class="flex-col flex flex-start-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-left">
+  										<div id="logo-container">
+  												<div class="site-logo">
+  														<a href="index-2.html" class="site-logo-anch">
+  																<img class="logo-img-sticky site-logo-img-sticky" src="img-assets/greekhotel-logo-white.png" alt="greekhotel" title="Greek Hotel">
+  																<img class="logo-img site-logo-img" src="img-assets/greekhotel-logo.png" alt="greekhotel" title="Greek Hotel" width="196" height="36">
+  														</a>
+  												</div>
+  										</div>
+  									</div>
+  									<!-- center column -->
+  									<div class="flex-col flex flex-center-x flex-center-y flex-basis-auto flex-grow-0 site-header-col-center site-header-main-center">
+  									</div>
+  									<!-- right column - navigation menu -->
+  									<div class="flex-col flex flex-end-x flex-center-y flex-basis-auto site-header-col-right site-header-main-right">
+  											<div class="main-menu-wrapper">
+  													<a href="tel:+9714-421-4988" class="sh-component btn-fullwhite ">
+  															<i class="fa fa-phone" aria-hidden="true"></i>
+  															<span>+9714-421-4988</span>
+  													</a>
+  													<div class="sh-component menu-wrapper">
+  														<a href="#" class="sh__hamburger-trigger">
+  															<span></span>
+  															<span></span>
+  															<span></span>
+  														</a>
+  													</div>
+  											</div>
+  									</div>
+  								</div>
+  							</div>
+  					</div>
+  				</div>
+  		</header>
+			<div class="mgt-120"></div>
+      <ul id="easyPaginate" class="rooms hg-catalog-4-column easypag">
+        <!-- first room -->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="room_sample.html">
+                <img src="images/room_24.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="room_sample.html">Double Room - Sea View</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+          <!-- room 2-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="room_sample.html">
+                <img src="images/room_16.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="room_sample.html">Single Room with Sea View</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 3-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="room_sample.html">
+                <img src="images/room_14.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="room_sample.html">Double room 5</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 4-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_02.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Family Room 3</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$50.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- second row-->
+        <!-- first room -->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_10.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Luxury Room 3</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+          <!-- room 2-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_08.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Double room 4</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 3-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_09.jpg" alt="room09"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Single room 3</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 4-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_21.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Twin room 3</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+
+        <!-- third row-->
+        <!-- first room -->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_06.jpg" alt="room06"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Double room 3</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+          <!-- room 2-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_03.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Family Room 2</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 3-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_04.jpg" alt="room09"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Double room 2</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 4-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_22.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Luxury Room 2</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- row 4-->
+        <!-- first room -->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_12.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Single room 2</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+          <!-- room 2-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_05.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Twin room 2</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 3-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_07.jpg" alt="room09"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Twin room</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$0.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 4-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_15.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Family Room</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$50.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- last page-->
+        <!-- room 1-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_19.jpg" alt="room09"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Luxury Room</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$50.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+        <!-- room 2-->
+        <li class="rooms__item">
+          <div class="summary">
+            <div class="media">
+              <a href="#">
+                <img src="images/room_18.jpg" alt="room24"/>
+              </a>
+            </div>
+            <div class="title">
+              <h4>
+                <a href="#">Single room</a>
+              </h4>
+            </div>
+            <div class="price">
+              <span class="price-title">Price</span>
+              <span class="price-value">$50.0</span>
+              <span class="price-unit">Night</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+        <!-- START FOOTER SECTION -->
+
+      <footer>
+        <div class="hg-footer container">
+          <div class="hg-footer--row row">
+            <div class=" col-md-12 col-sm-12">
+                <ul class="footer-nav">
+                  <li class="footer-nav__item"><a href="index-2.html">Home</a></li>
+                  <li class="footer-nav__item"><a href="rooms.html">Rooms</a></li>
+                  <li class="footer-nav__item"><a href="searchrooms.html">Searchrooms</a></li>
+                  <li class="footer-nav__item"><a href="room_sample.html">Room Sample</a></li>
+                  <li class="footer-nav__item"><a href="#">cart</a></li>
+                  <li class="footer-nav__item"><a href="checkout.html">checkout</a></li>
+                </ul>
+                <div class="clearfix hg-title-block">
+                  <h3 class="hg-title-block__title">Follow us:</h3>
+                </div>
+                <ul class="footer-social">
+                  <li class="footer-social__item "><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                    </a></li>
+                  <li class="footer-social__item"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+
+                </ul>
+                <div class="hg-textbox">
+                  <p class="copyright">
+                    Copyright &copy; 2016 Kallyas | Hogash.com
+                    <br>
+                    This Demo is part of Kallyas Theme. All rights reserved.
+                  </p>
+                </div>
+          </div>
+        </div>
+      </div>
+      </footer>	<!-- end footer section -->
+  </div><!-- end page_wrapper -->
+  <a href="#" class="totop">TOP</a> <!--/.totop -->
+
+	<script src="js/src/plugins/jquery-3.2.1.min.js"></script>
+  <script src="js/src/plugins/bootstrap.min.js"></script>
+  <script src="modules/slick/slick.min.js"></script>
+
+  <script src="modules/rellax-master/rellax.min.js"></script>
+  <script src="modules/Magnific-Popup/jquery.magnific-popup.js"></script>
+  <script src="modules/jquery-datepicker/jquery-ui.min.js"></script>
+	<!--Easy paginate script -->
+	<script src="modules/easyPaginate/jquery.easyPaginate.js"></script>
+
+
+	  <!-- Main template script -->
+  <script src="js/src/script.js"></script>
+  </body>
+  
+<!-- Mirrored from demos.hogash.com/greek-html/rooms.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 03:16:51 GMT -->
+</html>
